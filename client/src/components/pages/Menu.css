@@ -1,0 +1,81 @@
+.menu-page {
+    background: linear-gradient(135deg, #1e1e30, #2e2e4d, #3a3a60, #1c1c2b);
+    min-height: 100vh;
+    color: #f5f5f5;
+    padding: 2rem;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .menu-title {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #f8d15f;
+    margin-bottom: 30px;
+  }
+  
+  .section-title {
+    font-size: 28px;
+    color: #f8d15f;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .menu-section {
+    margin-bottom: 40px;
+  }
+  
+  .menu-items {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .menu-card {
+    background-color: #2e2e4d;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .menu-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .menu-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .back-button {
+    display: block;
+    margin: 50px auto 0;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #f8d15f;
+    color: #1e1e30;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .back-button:hover {
+    background-color: #e0bc50;
+  }
+  .subsection-title {
+    font-size: 24px;
+    color: #f5f5f5;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
