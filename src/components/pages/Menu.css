@@ -1,0 +1,151 @@
+/* Page Background */
+.menu-page {
+  background: linear-gradient(145deg, #1b1b2f, #162447);
+  min-height: 100vh;
+  color: #f5f5f5;
+  padding: 2rem;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+/* Main Title */
+.menu-title {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  color: #f8d15f;
+  margin-bottom: 3rem;
+  text-shadow: 1px 1px 2px #000;
+}
+
+/* Section Header with Clickable Arrow */
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+
+.section-title {
+  font-size: 32px;
+  color: #f8d15f;
+  margin: 0;
+}
+
+/* Arrow */
+.arrow {
+  font-size: 28px;
+  color: #f8d15f;
+  transition: transform 0.4s ease;
+}
+
+.arrow.open {
+  transform: rotate(180deg);
+}
+
+/* Subsection Title */
+.subsection-title {
+  font-size: 26px;
+  color: #ffffff;
+  margin: 1rem 0;
+  padding-left: 10px;
+}
+
+/* Sections */
+.menu-section {
+  margin-bottom: 40px;
+}
+
+/* Menu Items Grid */
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  padding: 0 10px;
+}
+
+/* Menu Card */
+.menu-card {
+  background: rgba(45, 45, 68, 0.9); /* Dark elegant card */
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.4s, box-shadow 0.4s, background 0.4s;
+  position: relative;
+}
+
+.menu-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0px 8px 20px rgba(248, 209, 95, 0.4);
+  background: rgba(45, 45, 68, 1);
+}
+
+/* Images */
+.menu-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+/* Meal Text */
+.menu-card strong {
+  font-size: 18px;
+  color: #f8d15f;
+}
+
+.meal-description {
+  display: block;
+  font-size: 14px;
+  color: #cfcfcf;
+  margin-top: 6px;
+}
+
+/* Badges */
+.badges {
+  margin-top: 10px;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  margin: 3px;
+}
+
+.badge-new {
+  background-color: #28a745; /* Green for New */
+  color: white;
+}
+
+.badge-best-seller {
+  background-color: #ffc107; /* Soft Yellow */
+  color: black;
+}
+
+/* Back Button */
+.back-button {
+  display: block;
+  margin: 60px auto 0;
+  padding: 12px 30px;
+  font-size: 20px;
+  background-color: #f8d15f;
+  color: #1b1b2f;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.back-button:hover {
+  background-color: #e0bc50;
+  transform: scale(1.05);
+}
